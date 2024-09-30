@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01 TODO App</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="header">
+        <h1>001 TODO Application</h1>
+        <p>A Very Simple Todo App for you!</p>
+        <p class="">Total Todos: <span class="total-todos">🤣</span></p>
+        <p class="">Completed Todos: <span class="completed-todos">0</span></p>
+
+
+    </header>
+    <div class="create-todo">
+        <form id="todo-form"  >
+            <label for="task">
+                New TODO
+            </label>
+            <input type="text" id="taks" name="task" placeholder="Enter todo here">
+            <button  type="submit" class="primary-btn btn add-btn">
+                Add A Todo
+             </button>
+        </form>
+            <!-- Create TODO BUTTON -->
+
+    </div>
+
+    <div class="todos-container">
+        <ul class="todos">
+        </ul>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
