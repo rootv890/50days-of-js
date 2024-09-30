@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet">
+
+    <title>Quiz-App</title>
+  </head>
+  <body class="max-w-screen-md mx-auto  bg-zinc-900 ">
+    <section class="w-full h-screen flex flex-col gap-y-4 justify-center items-center  bg-zinc-900 text-white px-12">
+        <div class="header my-12  flex items-center justify-center flex-col ">
+            <h1 class="text-5xl text-emerald-500 font-semibold mb-6 ">Day 03 Simple JS QUIZ WebApp</h1>
+            <p>Your Score : <span id="score">0</span></p>
+            <p>Your Progess :  <span id="current-question">0</span> / <span id="total-question">15</span> </p>
+        </div>
+            <div class="question-container flex flex-col gap-y-4   w-full  ">
+                <h2 class="text-2xl bg-zinc-800 p-4  rounded-md" id="question">Question: </h2>
+
+                <div id="answers" class="flex flex-col gap-y-4">
+                </div>
+
+                <div class="submit w-full flex items-center justify-center">
+                    <button class="button w-full " id="submit-button">
+                        Submit
+                    </button>
+                </div>
+
+
+
+                <div id="navigation" class="w-full flex mt-6 justify-between items-center">
+                    <button id="previous-button" class="button">Previous</button>
+                    <button id="next-button" class="button">Next</button>
+                </div>
+                <button id="finish-button" class="button ">
+                    Finish
+                </button>
+
+                <div id="finish-modal" >
+                   <h2> Quiz Completed! Restart!</h2>
+                </p>
+                </div>
+
+            </div>
+    </section>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

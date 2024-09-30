@@ -1,0 +1,325 @@
+[
+    {
+        "question": "Which company built ReactJS?",
+        "answers": [
+
+            {
+                "id":2,
+                "answer": "Apple",
+                "correct": false
+            },
+            {
+                "id":3,
+                "answer": "Google",
+                "correct": false
+            },
+            {
+                "id":4,
+                "answer": "YouRise",
+                "correct": false
+            },
+            {   "id":1,
+                "answer": "Meta",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What does HTML stand for?",
+        "answers": [
+            {
+                "id":1,
+                "answer": "Hyper Text Markup Language",
+                "correct": true
+            },
+            {
+                "id":2,
+                "answer": "Hyperlinks Text Markup Language",
+                "correct": false
+            },
+            {
+                "id":3,
+                "answer": "Home Tool Markup Language",
+                "correct": false
+            },
+            {
+                "id":4,
+                "answer": "Hyper Transfer Markup Language",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the primary language used for Android development?",
+        "answers": [
+            {
+                "answer": "Java",
+                "correct": true
+            },
+            {
+                "answer": "Swift",
+                "correct": false
+            },
+            {
+                "answer": "Python",
+                "correct": false
+            },
+            {
+                "answer": "C#",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which version control system is most popular among developers?",
+        "answers": [
+            {
+                "answer": "Git",
+                "correct": true
+            },
+            {
+                "answer": "SVN",
+                "correct": false
+            },
+            {
+                "answer": "Mercurial",
+                "correct": false
+            },
+            {
+                "answer": "Perforce",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which programming language is primarily used for web development?",
+        "answers": [
+            {
+                "answer": "JavaScript",
+                "correct": true
+            },
+            {
+                "answer": "C++",
+                "correct": false
+            },
+            {
+                "answer": "Python",
+                "correct": false
+            },
+            {
+                "answer": "Ruby",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a frontend framework?",
+        "answers": [
+            {
+                "answer": "ReactJS",
+                "correct": true
+            },
+            {
+                "answer": "Node.js",
+                "correct": false
+            },
+            {
+                "answer": "Django",
+                "correct": false
+            },
+            {
+                "answer": "Flask",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Who is considered the father of the World Wide Web?",
+        "answers": [
+            {
+                "answer": "Tim Berners-Lee",
+                "correct": true
+            },
+            {
+                "answer": "Bill Gates",
+                "correct": false
+            },
+            {
+                "answer": "Steve Jobs",
+                "correct": false
+            },
+            {
+                "answer": "Mark Zuckerberg",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a database management system?",
+        "answers": [
+            {
+                "answer": "PostgreSQL",
+                "correct": true
+            },
+            {
+                "answer": "Angular",
+                "correct": false
+            },
+            {
+                "answer": "Sass",
+                "correct": false
+            },
+            {
+                "answer": "Next.js",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which CSS framework is known for its utility-first approach?",
+        "answers": [
+            {
+                "answer": "Tailwind CSS",
+                "correct": true
+            },
+            {
+                "answer": "Bootstrap",
+                "correct": false
+            },
+            {
+                "answer": "Materialize",
+                "correct": false
+            },
+            {
+                "answer": "Foundation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of these is a backend JavaScript framework?",
+        "answers": [
+            {
+                "answer": "Node.js",
+                "correct": true
+            },
+            {
+                "answer": "Vue.js",
+                "correct": false
+            },
+            {
+                "answer": "ReactJS",
+                "correct": false
+            },
+            {
+                "answer": "TailwindCSS",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a NoSQL database?",
+        "answers": [
+            {
+                "answer": "MongoDB",
+                "correct": true
+            },
+            {
+                "answer": "MySQL",
+                "correct": false
+            },
+            {
+                "answer": "PostgreSQL",
+                "correct": false
+            },
+            {
+                "answer": "SQLite",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which protocol is used to securely transmit data over the internet?",
+        "answers": [
+            {
+                "answer": "HTTPS",
+                "correct": true
+            },
+            {
+                "answer": "HTTP",
+                "correct": false
+            },
+            {
+                "answer": "FTP",
+                "correct": false
+            },
+            {
+                "answer": "SMTP",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which company owns GitHub?",
+        "answers": [
+            {
+                "answer": "Microsoft",
+                "correct": true
+            },
+            {
+                "answer": "Amazon",
+                "correct": false
+            },
+            {
+                "answer": "Google",
+                "correct": false
+            },
+            {
+                "answer": "IBM",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the main language used for iOS development?",
+        "answers": [
+            {
+                "answer": "Swift",
+                "correct": true
+            },
+            {
+                "answer": "Kotlin",
+                "correct": false
+            },
+            {
+                "answer": "Java",
+                "correct": false
+            },
+            {
+                "answer": "C++",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which tool is used to track and manage project issues?",
+        "answers": [
+            {
+                "answer": "Jira",
+                "correct": true
+            },
+            {
+                "answer": "Slack",
+                "correct": false
+            },
+            {
+                "answer": "Zoom",
+                "correct": false
+            },
+            {
+                "answer": "Figma",
+                "correct": false
+            }
+        ]
+    }
+]
